@@ -17,4 +17,4 @@ RUN apt-get update && apt-get install -y libglib2.0-0
 COPY . .
 
 # Run your Streamlit application
-ENTRYPOINT ["streamlit", "run", "Home.py", "--server.port", "8501", "--server.address", "0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "Home.py",]
